@@ -18,3 +18,11 @@ resource "google_storage_bucket" "oidc_test" {
   storage_class               = "STANDARD"
   uniform_bucket_level_access = true
 }
+
+resource "google_storage_bucket" "oidc_test" {
+  name                        = "gcpa0053-cdm-hcp-oidc-test-kb002"
+  project                     = "gcpa0053-cdm"
+  location                    = "ASIA-NORTHEAST1"
+  storage_class               = "STANDARD"
+  uniform_bucket_level_access = true
+}
