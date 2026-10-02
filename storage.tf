@@ -19,7 +19,7 @@ resource "google_storage_bucket" "oidc_test" {
   uniform_bucket_level_access = true
 }
 
-resource "google_storage_bucket" "oidc_test" {
+resource "google_storage_bucket" "oidc_test2" {
   name                        = "gcpa0053-cdm-hcp-oidc-test-kb002"
   project                     = "gcpa0053-cdm"
   location                    = "ASIA-NORTHEAST1"
